@@ -25,6 +25,6 @@ public class DependencyInjectionConfigTest {
         FooBar fooBar = applicationContext.getBean(FooBar.class);
 
         Assertions.assertSame(foo, fooBar.getFoo());
-        Assertions.assertSame(bar, fooBar.getBar()][;]);
+        Assertions.assertSame(bar, fooBar.getBar());
     }
 }
