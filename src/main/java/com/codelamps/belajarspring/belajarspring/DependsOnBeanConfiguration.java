@@ -6,11 +6,13 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.DependsOn;
+import org.springframework.context.annotation.Lazy;
 
 @Slf4j
 @Configuration
 public class DependsOnBeanConfiguration {
 
+    @Lazy
     @Bean
     @DependsOn(value = {"barfirst"})
     public Foo foofirst(){
@@ -18,6 +20,7 @@ public class DependsOnBeanConfiguration {
         return new Foo();
     }
 
+    @Lazy
     @Bean
     public Bar barfirst(){
         log.info("Create Bean Bar");

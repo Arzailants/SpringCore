@@ -19,9 +19,6 @@ public class DependsOnBeanTest {
 
     @Test
     void testDependsOnBean(){
-        Foo foo = applicationContext.getBean(Foo.class);
         Bar bar = applicationContext.getBean(Bar.class);
-
-        Assertions.assertNotSame(foo, bar);
     }
 }
