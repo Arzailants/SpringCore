@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Scope;
 @Configuration
 public class ScopeConfiguration {
 
-    @Scope("prototype")
+    @Scope("singleton")
     @Bean
     public ScopeData scopeBean(){
         log.info("Membuat Objek Bean");
