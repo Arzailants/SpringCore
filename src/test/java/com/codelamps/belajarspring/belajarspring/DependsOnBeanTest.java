@@ -1,8 +1,6 @@
 package com.codelamps.belajarspring.belajarspring;
 
-import com.codelamps.belajarspring.belajarspring.data.Bar;
-import com.codelamps.belajarspring.belajarspring.data.Foo;
-import org.junit.jupiter.api.Assertions;
+import com.codelamps.belajarspring.belajarspring.data.foobar.Bar;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.context.ApplicationContext;

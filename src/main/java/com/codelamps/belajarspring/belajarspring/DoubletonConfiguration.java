@@ -1,6 +1,6 @@
 package com.codelamps.belajarspring.belajarspring;
 
-import com.codelamps.belajarspring.belajarspring.data.Foo;
+import com.codelamps.belajarspring.belajarspring.data.foobar.Foo;
 import com.codelamps.belajarspring.belajarspring.scope.Doubleton;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.config.CustomScopeConfigurer;

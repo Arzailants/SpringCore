@@ -1,8 +1,8 @@
 package com.codelamps.belajarspring.belajarspring;
 
-import com.codelamps.belajarspring.belajarspring.data.Bar;
-import com.codelamps.belajarspring.belajarspring.data.Foo;
-import com.codelamps.belajarspring.belajarspring.data.FooBar;
+import com.codelamps.belajarspring.belajarspring.data.foobar.Bar;
+import com.codelamps.belajarspring.belajarspring.data.foobar.Foo;
+import com.codelamps.belajarspring.belajarspring.data.foobar.FooBar;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

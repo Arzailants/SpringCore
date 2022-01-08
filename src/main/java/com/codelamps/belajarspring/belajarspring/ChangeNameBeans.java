@@ -1,6 +1,6 @@
 package com.codelamps.belajarspring.belajarspring;
 
-import com.codelamps.belajarspring.belajarspring.data.Foo;
+import com.codelamps.belajarspring.belajarspring.data.foobar.Foo;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
