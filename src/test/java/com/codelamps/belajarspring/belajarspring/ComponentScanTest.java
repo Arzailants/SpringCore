@@ -2,6 +2,9 @@ package com.codelamps.belajarspring.belajarspring;
 
 import com.codelamps.belajarspring.belajarspring.data.foobar.Bar;
 import com.codelamps.belajarspring.belajarspring.data.foobar.Foo;
+import com.codelamps.belajarspring.belajarspring.repository.ProdukRepository;
+import com.codelamps.belajarspring.belajarspring.service.ProductService;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.context.ApplicationContext;
@@ -23,4 +26,5 @@ public class ComponentScanTest {
         Foo foo = context.getBean(Foo.class);
         Bar bar = context.getBean(Bar.class);
     }
+
 }
